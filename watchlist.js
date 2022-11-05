@@ -16,6 +16,7 @@ function renderMovies(movieArray) {
               <div class="card-body">
                 <h5 class="movie-title">${currentMovie.Title}</h5>
                 <p class="release-date">${currentMovie.Year}</p>
+                <p> Added to your watchlist!</p>
               </div>
             </div>
             </div>
