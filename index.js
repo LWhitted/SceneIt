@@ -43,7 +43,7 @@ myForm.addEventListener('submit', async function (e) {
 
     const searchString = document.getElementsByClassName('search-bar')[0].value;
     let urlEncodedSearchString = encodeURIComponent(searchString)
-    await fetch("http://www.omdbapi.com/?apikey=59354c85&s=" + urlEncodedSearchString)
+    await fetch("https://www.omdbapi.com/?apikey=59354c85&s=" + urlEncodedSearchString)
         .then(async function (response) {
             return await response.json();
         })
